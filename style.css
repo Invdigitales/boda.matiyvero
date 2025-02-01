@@ -1,7 +1,7 @@
 * body {
     padding: 0;
     box-sizing: border-box;
-    background-image: url(./imagenes/fondo.jpg);
+    background-image: url(./imagenes/fondo.png);
     background-size: 100%; 
   }
   
@@ -287,7 +287,26 @@ font-weight: 400;
 line-height: 180%;
 text-align: center;
 }
+.clickdos{
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #BDA040;
+  color: #4c4c4c;
+  margin-left: 35% ;
 
+}
 .clickuno{
   min-width: 130px;
   height: 40px;
